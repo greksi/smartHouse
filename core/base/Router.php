@@ -23,7 +23,7 @@ class Router {
         if(self::matchRoute($url)){
             $controller = 'app\controllers\\' . self::$route['prefix'] . 
             self::$route['controller'] .'Controller';
- 
+   
             if(class_exists($controller)){
                $controllerObject = new $controller(self::$route);
    
@@ -46,10 +46,10 @@ class Router {
     }
     
     public static function matchRoute($url) {
-
+echo $url;
         foreach (self::$routes as $pattern => $route){
             if(preg_match("#{$pattern}#", $url, $matches)){
-                
+                var_dump($matches);
                 foreach ($matches as $k => $v){
                     if(is_string($k)){
                         $route[$k] = $v;

@@ -8,7 +8,7 @@ define("LIBS", ROOT . '/core/libs');
 define('BASE', CORE . '/base');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", 'default');
+define("LAYOUT", 'smarthouse');
 
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 //http://localhost/public/index.php
