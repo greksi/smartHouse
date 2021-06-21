@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?=$this->getMeta();?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
-	<link href="'<?=www;?> . '/css/style.css'" rel="stylesheet">
+    <link href=  '/css/style.css'" rel="stylesheet">
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="css/calendar.css">
+	<link rel="stylesheet" href="/css/calendar.css">
 </head>
 <body>
 	<!-- sidebar -->
@@ -21,7 +21,7 @@
     </div>
     <ul class="nav_list">
       <li>
-        <a href="main/dashboard">
+        <a href="/main/dashboard">
           <i class='bx bx-grid-alt' ></i>
           <span class="links_name">Dashboard</span>
         </a>
@@ -97,7 +97,7 @@
     })
 	</script>
 	
-	<script src="js/calendar.js"></script>
+	<script src="/js/calendar.js"></script>
 
     <!--SCRIPTS-->
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
