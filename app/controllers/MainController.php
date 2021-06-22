@@ -37,7 +37,7 @@ class MainController extends AppController {
         $humi_warn = 'Warning Humi Warn';
            
         $value_lamp = 0;
-        $value_door = 1;
+        $value_door = 0;
                
         
         $this->set(compact('value_lumi', 'date_lumi', 'lumi_warn',
@@ -48,6 +48,22 @@ class MainController extends AppController {
     }
     
     public function dashboardAction() {
+        
+    }
+    
+    public function smartobjectsAction() {
+        
+    }
+    
+    public function historyAction() {
+        
+    }
+    
+    public function analyticsAction() {
+        
+    }
+    
+    public function picturesAction() {
         
     }
 }
