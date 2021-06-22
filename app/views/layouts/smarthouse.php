@@ -28,28 +28,28 @@
         <span class="tooltip">Dashboard</span>
       </li>
       <li>
-        <a href="smartobjects.php">
+        <a href="/main/smartobjects">
           <i class='bx bx-coffee'></i>
           <span class="links_name">Smart Objects</span>
         </a>
 		<span class="tooltip">Smart Objects</span>
       </li>
       <li>
-        <a href="history.php">
+        <a href="/main/history">
           <i class='bx bx-archive-in' ></i>
           <span class="links_name">History</span>
         </a>
 		<span class="tooltip">History</span>
       </li>
       <li>
-        <a href="analytics.php">
+        <a href="/main/analytics">
           <i class='bx bx-pie-chart-alt-2' ></i>
           <span class="links_name">Analytics</span>
         </a>
 		<span class="tooltip">Analytics</span>
       </li>
 	  <li>
-        <a href="pictures.php">
+        <a href="/main/pictures">
           <i class='bx bx-photo-album'></i>
           <span class="links_name">Pictures</span>
         </a>
